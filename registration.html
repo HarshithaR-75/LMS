@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTRATION</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="./images/icon.png">
+   
+ </head>
+
+ <body>
+    <nav class="nav_head">
+        <div class="logo"><img src="./images/icon.png"alt="company logo"></div>
+        <h1>BMSCE LIBRARY</h1>
+        <div class="right_Nav">
+            <button class="button button1">login</button> </div>
+    </nav>
+
+    <nav class="navbar background">
+        
+        </ul>
+        <ul class="nav_list">
+            <!-- <div class="logo"><img src="./images/icon.png"alt="company logo"></div> -->
+            
+            <li ><a href="./index.html"><i class="fa fa-home"></i>Home</a></li>
+                <li ><a href="#facilities">Facilities</a>
+                    <div class="sub-menu-2">
+                        <ul>
+                            <li><a href="#">Lending</a></li>
+                            <li><a href="#">Reference</a></li>
+                            <li><a href="#">Online Public Access Cataloguing (OPAC)</a></li>
+                            <li><a href="#">Photocopying Services</a></li>
+                        </ul>
+                    </div>
+            <li><a href="#E-resources">E-Resources</a>
+                <div class="sub-menu-1">
+                    <ul>
+                        <li><a href="#">Magzines</a></li>
+                        <li><a href="#">Journels</a></li>
+                        <li><a href="#">e-books</a></li>
+                        <li><a href="#">Video lectures</a></li>
+                    </ul>
+                  </div>
+            </li>
+            <li ><a href="./Student_Dashboard.html"><i class="fa fa-home"></i>Dashboard</a></li>
+            <li><a href="#contact"><i class="fa fa-phone"></i>Contact us</a></li>
+         </ul>
+     </nav>
+     
+
+     
+     
+     <div class="row background_h">
+        <div class="reg">
+            <h1 style="font-size: 27px;">REGISTRATION FORM</h1>
+            <br/>
+            <form >
+              <label for="fname">First Name</label>
+              <input type="text" id="fname" name="firstname" placeholder="Your name..">
+          
+              <label for="lname">Last Name</label>
+              <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+          
+              <label for="country">State</label>
+              <select id="country" name="country">
+                <option value="australia">Karnataka</option>
+                <option value="canada">Tamil Nadu</option>
+                <option value="usa">Bihar</option>
+                <option value="usa">Rajasthan</option>
+                <option value="usa">Hydrebad</option>
+              </select>
+
+              <label for="dob">DOB</label>
+              <input type="date" id="dob" name="date of birth" placeholder="Your last name..">
+              <br/>
+              <br/>
+              
+              <label for="email">E-mail</label>
+              <input type="text" id="email" name="E-mail" placeholder="enter email..">
+
+              <label for="Student_usn">USN </label>
+              <input type="text" id="USN" name="USN" placeholder="your usn..">
+              <br/>
+              
+              <label for="gender">Gender : </label>
+
+              <label for="gender">Male</label>
+              <input type="radio" id="gender" name="male">
+
+              <label for="gender">Female</label>
+              <input type="radio" id="gender" name="female">
+
+              <label for="gender">other</label>
+              <input type="radio" id="gender" name="other">
+
+              <label for="gender">dont want to mention</label>
+              <input type="radio" id="gender" name="sim">
+              <br/><br/>
+              <label> Phone_no:
+            <input type="number" name=“number“ value="NUMBER"/></label>
+            <br><br>
+
+            <label style="color: black">Branch
+                <select name="branches">
+                <option value = "CSE">CSE</option>
+                <option value = "ISE">ISE</option>
+                <option value = "aiml">AIML</option>
+                <option value = "E.COMM.">E.COMM.</option>
+                <option value = "MECHANICAL">MECHANICAL</option>
+                
+                </select></label>
+            
+            
+
+
+              <input type="submit"   value="Submit" onclick="myfunction()" >
+              <script>
+                
+                function myfunction() {
+                var txt;
+                var r;
+                  alert("YOU ARE REGISTERED");
+                  
+                    }
+                    
+                    
+                 
+                  
+                                    
+                
+                </script>
+                 
+
+                
+            </form>
+          </div> 
+     </div>       
+            
+         <div class="end"> 
+          <footer>
+            <ul class="social_icons">
+                <li><a href="https://www.facebook.com/" target="_blank"><ion-icon name="logo-facebook"></ion-icon></a></li>
+                <li><a href="https://www.instagram.com/bmsce_25/?hl=en" target="_blank"><ion-icon name="logo-instagram"></ion-icon></a></li>
+                <li><a href="https://twitter.com/i/flow/login" target="_blank"><ion-icon name="logo-twitter"></ion-icon></a></li>
+                <li><a href="https://in.linkedin.com/school/b.-m.-s.-college-of-engineering/" target="_blank"><ion-icon name="logo-linkedin"></ion-icon></a></li>
+                <li><a href="#"><ion-icon name="logo-flickr"></ion-icon></a></li>
+            </ul>
+            <ul class="menu">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Team</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+
+            <p>
+                © 2021 BMSCE LIBRARY 
+            </p>
+            </footer>
+         </div>
+            <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+</body>
+</html> 
